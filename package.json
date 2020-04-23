@@ -1,0 +1,56 @@
+{
+  "name": "auth0-idfirst-login-sample",
+  "version": "3.0.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "auth0-js": "^9.8.2",
+    "auth0-password-policies": "^1.0.2",
+    "bootstrap": "4",
+    "dotenv": "^6.1.0",
+    "libphonenumber-js": "^1.7.27",
+    "moment": "^2.22.2",
+    "open-iconic": "^1.1.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-hook-form": "^4.4.4",
+    "react-scripts": "^3.2.0",
+    "reactstrap": "^8.1.1",
+    "release-it": "^10.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "cross-env": "^7.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "nodemon": "^1.18.6",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1",
+    "script-loader": "^0.7.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "clean": "rm -rf build && rm -rf dist",
+    "build": "npm run clean && cross-env INLINE_RUNTIME_CHUNK=false npm run build:react && npm run build:bundle",
+    "build:react": "react-scripts build",
+    "build:bundle": "webpack --config single-client-bundle-webpack.config.js",
+    "precommit": "pretty-quick --staged"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

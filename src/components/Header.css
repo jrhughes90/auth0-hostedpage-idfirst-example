@@ -1,0 +1,16 @@
+.nav {
+  background-color: #03c07b !important;
+  height: 56px;
+}
+
+.nav .logo {
+  position: absolute;
+  height: 94px;
+  width: 94px;
+  background: #fff;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 28px;
+  box-shadow: 4px 7px 6px -6px black;
+}

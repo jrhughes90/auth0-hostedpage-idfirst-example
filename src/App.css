@@ -1,0 +1,167 @@
+.App {
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h4 {
+  font-weight: 400;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+.app-main {
+  background-color: #eeeeee;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 40px;
+}
+
+.app-main form {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .app-main {
+    padding-top: 0px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .app-main form {
+    margin-top: 100px;
+    width: 526px;
+    padding: 0px;
+  }
+}
+
+.left {
+  text-align: left;
+}
+
+.app-main form .form-group {
+  margin-bottom: 24px;
+}
+
+.app-main form label {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.app-main form button.btn {
+  color: white;
+  fill: white;
+  background-color: #03c07b;
+  border-radius: 0px;
+  border: 2px solid #03c07b;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 11px 20px;
+  transition: all 0.4s ease !important;
+}
+
+.app-main form button[type="submit"]:hover {
+  background-color: #00c36a;
+  border: 2px solid #00c36a;
+  outline: 0 none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.app-main form button .icon {
+  float: right;
+  height: 21px;
+  width: 16px;
+}
+
+.app-main .form-control {
+  border-radius: 0px;
+  width: 100%;
+  padding: 8px 18px;
+  font-size: 14px;
+  margin-bottom: 2px;
+  background: #fff;
+  border: 1px solid #e5e5e4;
+  border-radius: 0;
+  outline: 0;
+  color: #000000;
+  transition: all 0.4s ease !important;
+}
+
+.app-main .form-control:focus {
+  border: 1px solid #000;
+  outline: 0 none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.error {
+  color: white;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.separate {
+  padding-top: 24px;
+  border-top: 1px solid #ccc;
+}
+
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app-main .side-by-side input {
+  width: 49%;
+}
+
+.side-by-side {
+  display: flex;
+}
+
+.form-check.separate {
+  padding-top: 0px;
+}
+
+.indent {
+  padding-left: 20px;
+}
+
+.logo {
+  padding: 15px;
+}
+
+.alternate-text {
+  font-size: 15px;
+  line-height: 1.66667;
+  letter-spacing: 0.005em;
+  font-weight: 200;
+}
+
+.alternate-text button {
+  color: #ffffff !important;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
