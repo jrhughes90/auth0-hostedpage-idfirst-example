@@ -11,7 +11,7 @@
     "bootstrap": "4",
     "dotenv": "^6.1.0",
     "libphonenumber-js": "^1.7.27",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "open-iconic": "^1.1.1",
     "prop-types": "^15.6.2",
     "react": "^16.11.0",
