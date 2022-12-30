@@ -19,7 +19,7 @@
     "react-hook-form": "^4.4.4",
     "react-scripts": "^3.2.0",
     "reactstrap": "^8.1.1",
-    "release-it": "^10.3.0"
+    "release-it": "^15.6.0"
   },
   "devDependencies": {
     "concurrently": "^4.0.1",
